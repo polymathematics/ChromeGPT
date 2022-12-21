@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChromeGPT</title>
+    <style> 
+textarea {
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  border: #fc99ff;
+  border-radius: 10 px;
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border-color: #fffef9;
+  
+}
+button.submitButton {
+    background-color: rgb(193, 174, 255);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border-color: #ffffff;
+   
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  color: #f80000;
+}
+h2 {
+  font-family: 'Helvetica', sans-serif;
+}
+body {
+  background: linear-gradient(to right, #ffe990, #ff3f3f, #fc99ff);
+}
+
+    </style>
+  </head>
+  <body>
+    <script src = "popup.js">
+
+</script>
+
+
+<img src="ChromeGPTlogotransparent.png" width="225px" height="250px">
+<h2>Chat with ChatGPT</h2>
+<label for="api-key" id="api-key-label">API Key:</label>
+<input type="text" id="api-key" placeholder="Enter your API key here" value="">
+<br>
+<br>
+<button id="submit-api-key" class="submitButton">Submit</button>
+<br>
+<br>
+<textarea id="input" placeholder="Enter your message here"></textarea>
+<button id="submit">Send</button> <br>
+<br>
+<textarea id="output" placeholder="ChatGPT's response will appear here"></textarea>
+</body>
+</html>

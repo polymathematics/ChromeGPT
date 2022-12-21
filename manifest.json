@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ChromeGPT",
+  "version": "1.0.1",
+  "description": "This extension allows users to access ChatGPT from Google Chrome.",
+  "permissions": [
+    "https://api.openai.com/*",
+    "storage"
+  ],
+  
+  "action": {
+    "default_popup": "popup.html"
+  }
+  
+  
+}
